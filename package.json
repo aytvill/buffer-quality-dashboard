@@ -18,9 +18,12 @@
   "homepage": "https://github.com/bufferapp/quality-dashboard#readme",
   "dependencies": {
     "@octokit/rest": "^22.0.0",
+    "braces": "^3.0.3",
     "chart.js": "^2.5.0",
+    "cross-spawn": "^6.0.6",
     "ejs": "^3.1.10",
     "express": "^4.15.2",
+    "got": "^11.8.5",
     "highcharts": "^12.3.0",
     "moment": "^2.18.1",
     "redis": "^5.5.6",
