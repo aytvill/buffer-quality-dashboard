@@ -3,7 +3,7 @@ const _ = require('underscore');
 const ejs = require('ejs');
 const app = express();
 const path = __dirname + '/views/';
-const GitHubApi = require('github');
+const GitHubApi = require('@octokit/rest');
 var githubToken;
 const redis = require('redis');
 const redisClient = redis.createClient(process.env.REDIS_PORT, process.env.REDIS_HOST);
